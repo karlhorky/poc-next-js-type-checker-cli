@@ -1,0 +1,20 @@
+{
+  "name": "poc-next-js-type-checker-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Karl Horky",
+  "scripts": {
+    "next-tsc": "node next-tsc/index.ts"
+  },
+  "devDependencies": {
+    "@typescript-eslint/project-service": "8.66.0",
+    "next": "16.3.0",
+    "typescript": "6.0.3"
+  },
+  "packageManager": "pnpm@11.21.0",
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}

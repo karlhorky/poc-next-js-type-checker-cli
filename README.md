@@ -20,4 +20,8 @@ app/layout.tsx(1,14): warning TS71008: The Next.js "metadata" export should be t
 [ELIFECYCLE] Command failed with exit code 1.
 ```
 
+<img width="2874" height="1804" alt="VS Code showing the Next.js metadata TS71008 warning and next-tsc exit code 1" src="https://github.com/user-attachments/assets/c8c80486-4955-44e2-a0a3-a13a82ba0f8c" />
+
 The nonzero exit code also fails the GitHub Actions CI workflow.
+
+<img width="2876" height="1790" alt="GitHub Actions failing on the Next.js metadata TS71008 warning from next-tsc" src="https://github.com/user-attachments/assets/ec9d6e12-0d87-4829-88b4-84a5b5b07053" />

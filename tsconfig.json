@@ -3,5 +3,5 @@
   "compilerOptions": {
     "plugins": [{ "name": "next" }]
   },
-  "include": ["app/layout.tsx"]
+  "include": ["app/layout.tsx", "scripts/next-tsc.ts"]
 }

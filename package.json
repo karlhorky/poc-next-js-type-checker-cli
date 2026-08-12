@@ -6,7 +6,7 @@
   "license": "ISC",
   "author": "Karl Horky",
   "scripts": {
-    "next-tsc": "node next-tsc/index.ts"
+    "next-tsc": "node scripts/next-tsc.ts"
   },
   "devDependencies": {
     "@typescript-eslint/project-service": "8.66.0",

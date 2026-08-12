@@ -1,6 +1,6 @@
 # Next.js TypeScript CLI checker POC
 
-Run Next.js TypeScript language service plugin diagnostics in the terminal. As of August 2026, [the TypeScript team has rejected the feature request for `tsc` to execute language service plugins](https://github.com/microsoft/TypeScript/issues/16607), so `next-tsc` creates a TypeScript project service and reads the plugin diagnostics for `app/layout.tsx`.
+Run Next.js TypeScript language service plugin diagnostics in the terminal. As of August 2026, [the TypeScript team has rejected the feature request for `tsc` to execute language service plugins](https://github.com/microsoft/TypeScript/issues/16607), so `scripts/next-tsc.ts` creates a TypeScript project service and reads the plugin diagnostics for `app/layout.tsx`.
 
 This proof of concept responds to [the missing Next.js CLI type check reported in `vercel/next.js#97229`](https://github.com/vercel/next.js/issues/97229).
 
@@ -13,7 +13,7 @@ This follows the direct language service approach in [`effect-language-service d
 
 ```bash
 $ pnpm next-tsc
-$ node next-tsc/index.ts
+$ node scripts/next-tsc.ts
 
 app/layout.tsx(1,14): warning TS71008: The Next.js "metadata" export should be type of "Metadata" from "next".
 

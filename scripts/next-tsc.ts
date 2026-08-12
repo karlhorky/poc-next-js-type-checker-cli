@@ -19,9 +19,9 @@ if (diagnostics.length > 0) {
   console.error(
     ts.formatDiagnostics(diagnostics, {
       getCanonicalFileName: (name) => name,
-      getCurrentDirectory: () => process.cwd(),
+      getCurrentDirectory: ts.sys.getCurrentDirectory,
       getNewLine: () => '\n',
     }),
   );
-  process.exitCode = 2;
+  ts.sys.exit(2);
 }

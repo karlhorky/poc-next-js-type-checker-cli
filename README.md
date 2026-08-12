@@ -17,7 +17,7 @@ $ node scripts/next-tsc.ts
 
 app/layout.tsx(1,14): warning TS71008: The Next.js "metadata" export should be type of "Metadata" from "next".
 
-[ELIFECYCLE] Command failed with exit code 2.
+[ELIFECYCLE] Command failed with exit code 1.
 ```
 
 The nonzero exit code also fails the GitHub Actions CI workflow.

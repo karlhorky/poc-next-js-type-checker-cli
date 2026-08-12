@@ -23,5 +23,5 @@ if (diagnostics.length > 0) {
       getNewLine: () => '\n',
     }),
   );
-  ts.sys.exit(2);
+  ts.sys.exit(1);
 }

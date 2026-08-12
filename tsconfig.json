@@ -1,6 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
+    "noEmit": true,
     "plugins": [{ "name": "next" }]
   },
   "include": ["app/layout.tsx", "scripts/next-tsc.ts"]
